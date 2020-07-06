@@ -5,6 +5,7 @@ Automatic cell segmentation in microscopy images works well with the support of 
 Link to full paper https://arxiv.org/abs/2007.01671
 
 ## Results
+![Screenshot 2020-07-06 at 13 00 37](https://user-images.githubusercontent.com/57146761/86587341-b0736a00-bf89-11ea-802e-abb537784daa.png)
 
 ## Code
 Code will be available soon
