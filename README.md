@@ -11,8 +11,7 @@ Link to full paper https://arxiv.org/abs/2007.01671
 ## Results
 ![Screenshot 2020-07-06 at 13 00 37](https://user-images.githubusercontent.com/57146761/86587341-b0736a00-bf89-11ea-802e-abb537784daa.png)
 
-
-
+![Screenshot 2020-07-06 at 13 06 23](https://user-images.githubusercontent.com/57146761/86587480-f4ff0580-bf89-11ea-99bb-ef4c5628b8cf.png)
 
 ![Screenshot 2020-07-06 at 13 06 41](https://user-images.githubusercontent.com/57146761/86587456-ea447080-bf89-11ea-807d-8b1591d10003.png)
 ## Code
