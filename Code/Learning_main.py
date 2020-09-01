@@ -3,11 +3,11 @@ Usage Instructions:
 
 To meta train
 ex:
-python Learning_main.py --lr-method 'Meta_Learning' --architecture 'FCRN' --target 'TNBC' --meta-train-losses 'BCE' --metalr 1.0 --modellr 0.001 --pretrainid 'test'
+python Learning_main.py --lr-method 'Meta_Learning' --architect 'FCRN' --target 'TNBC' --meta-train-losses 'BCE' --metalr 1.0 --lr 0.001 --pretrain-name 'test'
 
 To train using supervised
 ex:
-python Learning_main.py --lr-method 'Supervised_Learning' --architecture 'FCRN' --target 'TNBC' --model-lr 0.001 --pretrainid 'test'
+python Learning_main.py --lr-method 'Supervised_Learning' --architect 'FCRN' --target 'TNBC' --lr 0.001 --pretrain-name 'test'
 """
 
 import sys

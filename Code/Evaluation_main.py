@@ -3,11 +3,11 @@ Usage Instructions:
 
 To evaluate meta-trained models
 ex:
-python Evaluation_main.py --lr-method 'Meta_Learning' --architect 'FCRN' --target 'TNBC' --eval-meta-train-losses 'BCE' --switchaffine True --num-shots 1 3 5 7 10 --selections 1 2 3 4 5 6 7 8 9 10 --statedictepochs 300 --pretrain-name 'test' --finetuneid 'Test_finetune'
+python Evaluation_main.py --lr-method 'Meta_Learning' --architect 'FCRN' --target 'TNBC' --eval-meta-train-losses 'BCE' --switchaffine True --num-shots 1 3 5 7 10 --selections 1 2 3 4 5 6 7 8 9 10 --statedictepochs 300 --finetune-lr 0.0001 --finetune-epochs 20 --pretrain-name 'test' --finetune-name 'Test_finetune'
 
 To evaluate supervised-trained models
 ex:
-python Evaluation_main.py --lr-method 'Supervised_Learning' --architect 'FCRN' --target 'TNBC' --switchaffine True --numshots 1 3 5 7 10 --selections 1 2 3 4 5 6 7 8 9 10 --state_dict_epochs 50 --pretrainid 'test' --finetuneid 'Test_finetune'
+python Evaluation_main.py --lr-method 'Supervised_Learning' --architect 'FCRN' --target 'TNBC' --switchaffine True --num-shots 1 3 5 7 10 --selections 1 2 3 4 5 6 7 8 9 10 --state_dict_epochs 50 --finetune-lr 0.0001 --finetune-epochs 20 --pretrainid 'test' --finetune-name 'Test_finetune'
 """
 
 
