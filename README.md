@@ -15,6 +15,9 @@ Link to full paper https://arxiv.org/abs/2007.01671
 
 ![Screenshot 2020-07-06 at 13 06 41](https://user-images.githubusercontent.com/57146761/86587456-ea447080-bf89-11ea-807d-8b1591d10003.png)
 ## Code
-Code will be available soon
+1-First run run_preprocessing.py to download datasets and preprocess them
+2- Instructions to run training and evaluation are available in Learning_main.py and Evaluation_main.py
+
+Note: Pytorch version 1.3.1
 ## License
 This project is licensed under the MIT license - see the License.md file for details
