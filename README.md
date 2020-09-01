@@ -15,10 +15,19 @@ Link to full paper https://arxiv.org/abs/2007.01671
 
 ![Screenshot 2020-07-06 at 13 06 41](https://user-images.githubusercontent.com/57146761/86587456-ea447080-bf89-11ea-807d-8b1591d10003.png)
 ## Code
-1-First run run_preprocessing.py to download datasets and preprocess them
+1- Install necessary python modules
+torch==1.3.1
+torchvision==0.4.2
+tensorboard==2.2.1
+numpy==1.18.5
 
-2- Instructions to run training and evaluation are available in Learning_main.py and Evaluation_main.py
 
-Note: Pytorch version 1.3.1
+2- Run run_preprocessing.py i.e. python run_preprocessing.py to download the datasets and preprocess them, in addition to extracting and preprocessing my 10 random selections.
+
+3- Instructions to run training and evaluation are available with examples in Learning_main.py and Evaluation_main.py
+
+## Pre-trained Models
+My Pre-trained models will also be uploaded soon
+
 ## License
 This project is licensed under the MIT license - see the License.md file for details
