@@ -26,3 +26,11 @@ My Pre-trained models will also be uploaded soon
 
 ## License
 This project is licensed under the MIT license - see the License.md file for details
+
+## Cite
+@misc{2007.01671,
+Author = {Youssef Dawoud and Julia Hornauer and Gustavo Carneiro and Vasileios Belagiannis},
+Title = {Few-Shot Microscopy Image Cell Segmentation},
+Year = {2020},
+Eprint = {arXiv:2007.01671},
+}
