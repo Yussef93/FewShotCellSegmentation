@@ -22,15 +22,20 @@ Link to full paper https://arxiv.org/abs/2007.01671
 3- Instructions to run training and evaluation are available with examples in Learning_main.py and Evaluation_main.py
 
 ## Pre-trained Models
-My Pre-trained models will also be uploaded soon
+The Pre-trained models can be downloaded from this link https://cloudstore.uni-ulm.de/s/YqD6or4DLyjF7ry 
 
 ## License
 This project is licensed under the MIT license - see the License.md file for details
 
 ## Cite
-@misc{2007.01671,
+To cite this repository, please use the following citation:
+
+
+```
+@misc{DawFewShotCellSeg,
 Author = {Youssef Dawoud and Julia Hornauer and Gustavo Carneiro and Vasileios Belagiannis},
 Title = {Few-Shot Microscopy Image Cell Segmentation},
 Year = {2020},
 Eprint = {arXiv:2007.01671},
-}
+} 
+```
