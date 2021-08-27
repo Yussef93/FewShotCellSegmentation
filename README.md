@@ -32,10 +32,17 @@ To cite this repository, please use the following citation:
 
 
 ```
-@misc{DawFewShotCellSeg,
-Author = {Youssef Dawoud and Julia Hornauer and Gustavo Carneiro and Vasileios Belagiannis},
-Title = {Few-Shot Microscopy Image Cell Segmentation},
-Year = {2020},
-Eprint = {arXiv:2007.01671},
+@inproceedings{DBLP:conf/pkdd/DawoudHCB20,
+  author    = {Youssef Dawoud and
+               Julia Hornauer and
+               Gustavo Carneiro and
+               Vasileios Belagiannis},
+  title     = {Few-Shot Microscopy Image Cell Segmentation},
+  booktitle = {{ECML/PKDD} {(5)}},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12461},
+  pages     = {139--154},
+  publisher = {Springer},
+  year      = {2020}
 } 
 ```
