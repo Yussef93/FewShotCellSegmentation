@@ -15,11 +15,17 @@ Link to full paper https://arxiv.org/abs/2007.01671
 
 ![Screenshot 2020-07-06 at 13 06 41](https://user-images.githubusercontent.com/57146761/86587456-ea447080-bf89-11ea-807d-8b1591d10003.png)
 ## Code
-1- Install necessary python modules in requirements.txt
+- Download the datasets using the script downloadUnzipDatasets.sh
+- Install necessary python modules in requirements.txt and tiffsplit command in bash
+```bash
+conda create -n FewShotCellSegmentation python==3.8
+conda activate FewShotCellSegmentation
+pip install -r requirements.txt
+```
 
-2- Run run_preprocessing.py i.e. python run_preprocessing.py to download the datasets and preprocess them, in addition to extracting and preprocessing my 10 random selections.
+- Execute run_preprocessing.py i.e. python run_preprocessing.py to download the datasets and preprocess them, in addition to extracting and preprocessing my 10 random selections.
 
-3- Instructions to run training and evaluation are available with examples in Learning_main.py and Evaluation_main.py
+- Instructions to run training and evaluation are available with examples in Learning_main.py and Evaluation_main.py
 
 ## Pre-trained Models
 The Pre-trained models can be downloaded from this link https://cloudstore.uni-ulm.de/s/YqD6or4DLyjF7ry 
